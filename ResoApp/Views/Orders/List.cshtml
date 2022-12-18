@@ -1,0 +1,32 @@
+﻿
+<div class="card-body">
+    <h4 class="card-title ">Orders Details</h4>
+    <div class="table-responsive">
+        <table @*id="order-listing"*@ style="width:1400px" class="table ">
+            <thead class="thead-dark">
+                <tr>
+                    <th> # </th>
+                    <th> Order Date </th>
+                    <th> Total Price </th>
+                    <th> Details </th>
+                </tr>
+            </thead>
+            <tbody id="OrdersTableBody">                                          
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+    <!-- plugins:js -->
+    <script src="~/vendor/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <script src="~/vendor/datatables.net/jquery.dataTables.js"></script>
+    <script src="~/vendor/datatables.net-bs4/dataTables.bootstrap4.js"></script>
+    <!-- End plugin js for this page -->
+    <!-- Custom js for this page -->
+    <script src="~/js/data-table.js"></script>
+    <!-- End custom js for this page -->
+
+   

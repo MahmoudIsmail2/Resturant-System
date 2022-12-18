@@ -1,0 +1,68 @@
+﻿<section id="gtco-menu">
+    <div class="container">
+        <div class="section-content">
+            <div class="row mb-5">
+                <div class="col-md-12">
+                    <div style="margin-bottom:30px" class="heading-section text-center">
+
+                        <h2 style="text-align:center">
+                            Our Menu
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+                <div id="categories" style="margin-left:160px;margin-bottom:15px" class="col-12">
+                    <div style="width:20%;float:left;margin-left:-10px" class="heading-menu">
+                        <button id="b1" onclick="GetItemsByCategoryId(1)" style="width:200px;height:60px" class="btn btn-primary btn-shadow btn-lg"></button>
+                    </div>
+                    <div style="width:20%;float:left;margin-left:-10px" class="heading-menu">
+                        <button id="b2" onclick="GetItemsByCategoryId(2)" style="width:200px;height:60px" class="btn btn-primary btn-shadow btn-lg"></button>
+                    </div>
+                    <div style="width:20%;float:left;margin-left:-10px" class="heading-menu">
+                        <button id="b3" onclick="GetItemsByCategoryId(3)" style="width:200px;height:60px" class="btn btn-primary btn-shadow btn-lg"></button>
+                    </div>
+                    <div style="width:20%;float:left;margin-left:-10px" class="heading-menu">
+                        <button id="b4" onclick="GetItemsByCategoryId(4)" style="width:200px;height:60px" class="btn btn-primary btn-shadow btn-lg"></button>
+                    </div>
+                </div>
+                <div id="items" style="margin-left:130px;" class="col-10"></div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of menu Section -->
+<hr />
+<div class="hero">
+    <div class="container">
+        <div class="row d-flex align-items-center">
+            <div class="col-lg-6 hero-left">
+                <div style="margin-bottom:250px">
+                    <table id="myTable" style="margin-left:5px;height:50px;" class="table  ">
+                        <thead style="height:10px; width:300px;background-color:bisque">
+                            <tr>
+                                <th scope="col">Item Name</th>
+                                <th scope="col">Price</th>
+                                <th scope="col">Qty</th>
+                                <th scope="col">Total</th>
+                                <th scope="col">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tablebody">
+                        </tbody>
+                    </table>
+                    <label style="font-weight:bold">Invoice Total</label>
+                    <input id="invoicetotal" value="0" type="text" />
+                    <button class="btn btn-solid" style="width:400px;margin:auto;display:block" onclick="Invoice.Save()">Save</button>
+                </div>
+            </div>
+
+         
+        </div>
+    </div>
+</div>
+
+
+
