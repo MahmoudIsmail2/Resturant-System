@@ -56,7 +56,7 @@ namespace ResturantApp.ApiControllers
             return lst;
         }
 
-
+        //api
         // POST api/<Resturant>
         [HttpPost("Postorder")]
         public void Postorder([FromBody] Sporder result)

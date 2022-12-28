@@ -48,7 +48,7 @@
         });
 
         // set content
-        modal.setContent('<table class="table"><thead><th>ItemId</th><th>ItemName</th></thead><tbody><tr><td>8</td><td>mahmoud</td></tr></tbody></table>');
+        modal.setContent('<table class="table"><thead><th>Item Id</th><th>Item Name</th><th>Item Price</th></thead><tbody id="popupbody"></tbody></table>');
            
 
         // add a button

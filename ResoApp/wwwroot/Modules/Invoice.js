@@ -87,7 +87,7 @@
 
                 Swal.fire(
                     'Deleted!',
-                    'Your file has been deleted.',
+                    'Your Item has been deleted.',
                     'success'
                 )
             }
